@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Toast message</title>
+  </head>
+  <body>
+    <div id="toast"></div>
+    <div>
+      <!-- Success -->
+
+      <!-- Info -->
+      <!-- <div class="toast toast--info">
+        <div class="toast__icon">
+          <i class="fa-solid fa-circle-info"></i>
+        </div>
+        <div class="toast__body">
+          <h3 class="toast__title">Info</h3>
+          <p class="toast__message">Máy vi tính kết nối Intenet (Windows, Ubuntu hoặc MacOS)</p>
+        </div>
+        <div class="toast__close">
+          <i class="fa-solid fa-circle-xmark"></i>
+        </div>
+      </div> -->
+
+      <!-- Warning -->
+      <!-- <div class="toast toast--warning">
+        <div class="toast__icon">
+          <i class="fa-solid fa-circle-exclamation"></i>
+        </div>
+        <div class="toast__body">
+          <h3 class="toast__title">Warning</h3>
+          <p class="toast__message">Máy vi tính kết nối Intenet (Windows, Ubuntu hoặc MacOS)</p>
+        </div>
+        <div class="toast__close">
+          <i class="fa-solid fa-circle-xmark"></i>
+        </div>
+      </div> -->
+
+      <!-- Error -->
+      <!-- <div class="toast toast--error">
+        <div class="toast__icon">
+          <i class="fa-solid fa-circle-minus"></i>
+        </div>
+        <div class="toast__body">
+          <h3 class="toast__title">Error</h3>
+          <p class="toast__message">Máy vi tính kết nối Intenet (Windows, Ubuntu hoặc MacOS)</p>
+        </div>
+        <div class="toast__close">
+          <i class="fa-solid fa-circle-xmark"></i>
+        </div>
+      </div> -->
+    </div>
+
+    <div id="btn">
+      <button onclick="showSuccessToast()" type="button" class="btn btn--success">Show success toast</button>
+      <button onclick="showInfoToast()" type="button" class="btn btn--info">Show info toast</button>
+      <button onclick="showWarningToast()" type="button" class="btn btn--warning">Show warning toast</button>
+      <button onclick="showErrorToast()" type="button" class="btn btn--error">Show error toast</button>
+    </div>
+    <script src="https://kit.fontawesome.com/1f37f122f0.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
